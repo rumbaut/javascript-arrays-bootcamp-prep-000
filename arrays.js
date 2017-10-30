@@ -9,6 +9,7 @@ function addElementToBeginningOfArray(array,element){
 
 var array = [];
 console.log(addElementToBeginningOfArray(array,'foo')[0]);
+console.log(array);
 /*function destructivelyAddElementToBeginningOfArray(array, element){
   var newArray = array;
   newArray.unshift(element);

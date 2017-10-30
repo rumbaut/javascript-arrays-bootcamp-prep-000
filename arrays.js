@@ -31,6 +31,10 @@ function accessElementInArray(array, index){
   return array[index];
 }
 
+function destructivelyRemoveElementFromBeginningOfArray(array){
+  
+}
+
 var array = [];
 console.log(addElementToBeginningOfArray(array,'foo')[0]);
 console.log(array);

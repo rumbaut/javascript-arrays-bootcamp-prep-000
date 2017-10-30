@@ -47,6 +47,12 @@ function destructivelyRemoveElementFromEndOfArray(array){
   return array;
 }
 
+function removeElementFromEndOfArray(array){
+  var aux = array.slice();
+  aux.pop();
+  return aux;
+}
+
 var array = [];
 console.log(addElementToBeginningOfArray(array,'foo')[0]);
 console.log(array);

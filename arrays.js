@@ -27,6 +27,10 @@ function destructivelyAddElementToEndOfArray(array, element){
   return aux;
 }
 
+function accessElementInArray(array, index){
+  return array[index];
+}
+
 var array = [];
 console.log(addElementToBeginningOfArray(array,'foo')[0]);
 console.log(array);

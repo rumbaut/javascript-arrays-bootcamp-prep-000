@@ -8,12 +8,14 @@ function addElementToBeginningOfArray(array,element){
     return aux;
 }
 
-var array = [];
-console.log(addElementToBeginningOfArray(array,'foo')[0]);
-console.log(array);
-/*function destructivelyAddElementToBeginningOfArray(array, element){
+
+function destructivelyAddElementToBeginningOfArray(array, element){
   var newArray = array;
   newArray.unshift(element);
   return newArray;
 }
-*/
+
+
+var array = [];
+console.log(addElementToBeginningOfArray(array,'foo')[0]);
+console.log(array);

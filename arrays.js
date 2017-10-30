@@ -3,7 +3,8 @@ function chocolateBars(){
 }
 function addElementToBeginningOfArray(array,element){
     var aux = array;
-    return aux.unshift(element);
+    aux.unshift(element);
+    return aux;
 }
 /*function destructivelyAddElementToBeginningOfArray(array, element){
   var newArray = array;

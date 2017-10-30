@@ -4,6 +4,7 @@ function chocolateBars(){
 function addElementToBeginningOfArray(array,element){
     var aux = array;
     aux.unshift(element);
+    array.shift();
     return aux;
 }
 

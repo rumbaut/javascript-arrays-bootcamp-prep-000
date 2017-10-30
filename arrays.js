@@ -2,9 +2,9 @@ function chocolateBars(){
   return ['snickers', 'hundred grand', 'kitkat', 'skittles'];
 }
 function addElementToBeginningOfArray(array,element){
-    var aux = array;
+    var aux = array.slice();
     aux.unshift(element);
-    array.shift();
+  
     return aux;
 }
 
